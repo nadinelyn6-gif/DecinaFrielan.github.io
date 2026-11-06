@@ -62,17 +62,15 @@ Almost all text lives in **`src/data.js`**:
 
 ## Adding your photo
 
-1. Put your photo in the `public` folder, e.g. `public/profile.jpg`.
-2. In `src/data.js`, change:
-   ```js
-   photo: './profile.svg',
-   ```
-   to:
-   ```js
-   photo: './profile.jpg',
-   ```
+Your photo is stored at **`public/profile.jpg`** and referenced in `src/data.js`:
 
-Square photos work best; the frame crops them into a circle.
+```js
+photo: './profile.jpg',
+```
+
+To change it, replace `public/profile.jpg` with a new square photo (600×600 or
+larger works best). If you use a different filename, update `profile.photo` in
+`src/data.js` to match, e.g. `photo: './me.png'`.
 
 ## Project structure
 
