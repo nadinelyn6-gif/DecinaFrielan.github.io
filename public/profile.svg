@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="600" viewBox="0 0 600 600" role="img" aria-label="Portrait placeholder">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#241350" />
+      <stop offset="0.55" stop-color="#150E2A" />
+      <stop offset="1" stop-color="#0A0716" />
+    </linearGradient>
+    <radialGradient id="glowA" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#FF2E9A" stop-opacity="0.55" />
+      <stop offset="1" stop-color="#FF2E9A" stop-opacity="0" />
+    </radialGradient>
+    <radialGradient id="glowB" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#31F1E0" stop-opacity="0.45" />
+      <stop offset="1" stop-color="#31F1E0" stop-opacity="0" />
+    </radialGradient>
+    <radialGradient id="glowC" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#9C5CFF" stop-opacity="0.6" />
+      <stop offset="1" stop-color="#9C5CFF" stop-opacity="0" />
+    </radialGradient>
+    <linearGradient id="figure" x1="0.2" y1="0" x2="0.8" y2="1">
+      <stop offset="0" stop-color="#F6F3FF" />
+      <stop offset="0.5" stop-color="#D9CDFF" />
+      <stop offset="1" stop-color="#9C8BD6" />
+    </linearGradient>
+  </defs>
+
+  <rect width="600" height="600" fill="url(#bg)" />
+  <circle cx="130" cy="120" r="230" fill="url(#glowA)" />
+  <circle cx="500" cy="170" r="210" fill="url(#glowC)" />
+  <circle cx="470" cy="520" r="220" fill="url(#glowB)" />
+
+  <g stroke="#FFFFFF" stroke-opacity="0.06" stroke-width="1">
+    <path d="M0 150H600M0 300H600M0 450H600M150 0V600M300 0V600M450 0V600" />
+  </g>
+
+  <!-- soft silhouette -->
+  <g fill="url(#figure)" opacity="0.92">
+    <circle cx="300" cy="236" r="88" />
+    <path d="M300 350c-104 0-176 66-190 250h380c-14-184-86-250-190-250Z" />
+  </g>
+
+  <!-- rim light -->
+  <g fill="none" stroke="#31F1E0" stroke-opacity="0.35" stroke-width="3">
+    <circle cx="300" cy="236" r="88" />
+    <path d="M110 600c14-184 86-250 190-250s176 66 190 250" />
+  </g>
+
+  <g font-family="'Plus Jakarta Sans', Arial, sans-serif" font-weight="800" text-anchor="middle">
+    <text x="300" y="558" font-size="20" letter-spacing="6" fill="#31F1E0" opacity="0.85">FREILLAN</text>
+  </g>
+</svg>
