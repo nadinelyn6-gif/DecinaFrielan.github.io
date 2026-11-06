@@ -3,7 +3,7 @@
 A dark, neon-accented one-page portfolio built with **React + Vite**. The design
 follows the bento-style reference: glowing background blobs, a glassy pill
 navigation, a spinning avatar ring, colour-coded "What I build" cards, a skills
-cloud, and a project grid.
+cloud, a project grid, and live links to GitHub repositories.
 
 ## Run it locally
 
@@ -55,10 +55,12 @@ Almost all text lives in **`src/data.js`**:
 | "What I build" cards | `buildCards` array |
 | Skills pills (sized core / mid / light) | `skills` array |
 | Projects | `projects` array |
+| GitHub repository links | `repos` array |
 | Contact quick facts | `facts` array |
 
-> The skills and projects that shipped with this build are **samples** — replace
-> them with your real ones so the portfolio is accurate.
+> The projects and skills reflect the work listed on your earlier portfolio
+> (`decina-website`) and the public repositories under `nadinelyn6-gif`. Update
+> them whenever a new project is finished.
 
 ## Adding your photo
 

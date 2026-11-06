@@ -17,13 +17,14 @@ export default function Hero() {
           <span className="eyebrow-glow">{profile.availability}</span>
           <h1>
             Hi, I&apos;m {profile.shortName} — I build{' '}
-            <span className="glow-word">websites</span> that people actually enjoy
-            using.
+            <span className="glow-word">apps and websites</span> that solve real
+            problems.
           </h1>
           <p>
-            I&apos;m a 20-year-old student from Brgy. 4, Tangub City. I like turning
-            simple ideas into clean, responsive websites, and I&apos;m using every
-            project I build to get better at the craft.
+            I&apos;m a 20-year-old Computer Science student from Brgy. 4, Tangub
+            City. I build things end to end — from Flutter apps backed by Firebase
+            and SQLite to PHP/MySQL systems and REST APIs — and I&apos;m always
+            working on the next one.
           </p>
 
           <ul className="hero-facts" aria-label="Quick facts">
