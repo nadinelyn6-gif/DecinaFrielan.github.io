@@ -12,8 +12,8 @@ export const profile = {
   birthday: 'November 29, 2005',
   location: 'Brgy. 4, Tangub City',
   availability: 'Open to internships & opportunities',
-  // Swap this with "/your-photo.jpg" after adding a photo to the public folder.
-  photo: '/profile.svg',
+  // Swap this with "./your-photo.jpg" after adding a photo to the public folder.
+  photo: './profile.svg',
   email: 'hello@example.com',
 }
 

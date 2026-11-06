@@ -65,11 +65,11 @@ Almost all text lives in **`src/data.js`**:
 1. Put your photo in the `public` folder, e.g. `public/profile.jpg`.
 2. In `src/data.js`, change:
    ```js
-   photo: '/profile.svg',
+   photo: './profile.svg',
    ```
    to:
    ```js
-   photo: '/profile.jpg',
+   photo: './profile.jpg',
    ```
 
 Square photos work best; the frame crops them into a circle.
